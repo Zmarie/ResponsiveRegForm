@@ -75,7 +75,7 @@ hr.thin {
 
 /**** FORM BODY ****/
 form {
-	margin: 30px -5px;
+	margin: 30px auto;
 }
 
 fieldset {
@@ -91,6 +91,14 @@ label {
 	color: #b7c6b1;
 	font-style: oblique;
 	display: inline-block;
+}
+
+label[for="message"] {
+	text-align: justify;
+	margin: 20px 5px;
+	display: block;
+	width: 75%;
+	color: #a9a9a7;
 }
 
 input,
@@ -279,7 +287,8 @@ input::placeholder {
 	}
 	
 	form {
-		margin: 15px 60px;
+		margin: 15px 65px;
+		max-width: 90%;
 	}
 
 	label {
